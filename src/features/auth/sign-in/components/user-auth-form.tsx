@@ -123,7 +123,7 @@ export function UserAuthForm({
             <FormItem>
               <FormLabel>Email</FormLabel>
               <FormControl>
-                <Input placeholder="teacher@demo.com" {...field} />
+                <Input {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -136,7 +136,7 @@ export function UserAuthForm({
             <FormItem className="relative">
               <FormLabel>Mật khẩu</FormLabel>
               <FormControl>
-                <PasswordInput placeholder="********" {...field} />
+                <PasswordInput {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
